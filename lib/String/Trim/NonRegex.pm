@@ -114,6 +114,8 @@ sub trim {
 
 =head1 DESCRIPTION
 
+In general, regex is faster in this case (see benchmark in L</SEE ALSO>).
+
 
 =head1 FUNCTIONS
 
@@ -146,5 +148,7 @@ ltrim + rtrim.
 
 L<String::Trim>, L<Text::Trim>, L<String::Strip>, L<String::Util>,
 L<String::Trim::More>.
+
+Benchmark: L<Bencher::Scenario::StringFunctions::Trim>
 
 =cut
