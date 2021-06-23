@@ -147,7 +147,7 @@ ltrim + rtrim.
 =head1 SEE ALSO
 
 L<String::Trim>, L<Text::Trim>, L<String::Strip>, L<String::Util>,
-L<String::Trim::More>.
+L<String::Trim::More>, L<Text::Minify::XS>.
 
 Benchmark: L<Bencher::Scenario::StringFunctions::Trim>
 
